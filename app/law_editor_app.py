@@ -1,5 +1,5 @@
 import streamlit as st
-from processing.law_processor import get_law_list_from_api, get_highlighted_articles
+from law_processor import get_law_list_from_api, get_highlighted_articles
 
 st.set_page_config(page_title="📘 부칙 개정 도우미")
 st.title("📘 부칙 개정 도우미")
